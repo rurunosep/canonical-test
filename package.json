@@ -1,0 +1,27 @@
+{
+  "name": "canonical-test",
+  "author": "Kevin Hernandez-Rives <rurunosep@gmail.com>",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "isomorphic-dompurify": "^1.9.0",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "sass": "^1.69.5",
+    "typescript": "^5",
+    "vanilla-framework": "^4.5.0"
+  }
+}
